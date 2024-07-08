@@ -1,0 +1,24 @@
+
+class Animal :
+  Propiedad nombre (string)
+  Propiedad edad (number)
+
+  constructor(nuevoNombre, nuevaEdad) 
+    nombre = nuevoNombre;
+    edad = nuevaEdad;
+
+
+  metodo abstracto hablar():
+    Lanzar un error indicando que este método debe ser implementado por la subclase
+
+Clase Perro hereda de Animal:
+  Métodos:
+    Definir hablar():
+      Imprimir "Guau"
+
+Clase Gato hereda de Animal:
+  Métodos:
+    Definir hablar():
+      Imprimir "Miau"
+
+      
